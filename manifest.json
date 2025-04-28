@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "SearchBlox",
+    "description": "Search Roblox servers for a desired player. (Manifest V3 Compatible)",
+    "version": "0.5.7",
+    "icons": {
+      "48": "images/48x48.webp"
+    },
+    "host_permissions": [
+      "https://presence.roblox.com/*",
+      "https://users.roblox.com/*"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "SearchBlox"
+    }
+  }
+  
